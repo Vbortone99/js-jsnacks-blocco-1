@@ -18,9 +18,9 @@ Fasi
 
 <!-- SNACK-2/ARRAY_TAIL: -->
     Descrizione:
-Creiamo un array chiedendo all'utente quanti elementi dovrà contenere e generando tanti numeri casuali da 1 a 100 per quanti sono gli elementi da inserire.
+1.  Creiamo un array chiedendo all'utente quanti elementi dovrà contenere e generando tanti numeri casuali da 1 a 100 per quanti sono gli elementi da inserire.
 
-Stampiamo poi gli ultimi 5 elementi dell'Array
+2. Stampiamo poi gli ultimi 5 elementi dell'Array
 
 Bonus:
 Chiediamo all'utente quanti elementi dell'array dovremo stampare
@@ -30,6 +30,6 @@ Probabilmente conviene controllare che il numero di elementi della coda non sia 
 
 <!-- SNACK-2/ARRAY_BONUS: -->
     Descrizione:
-Crea due array che hanno un numero di elementi diversi.
+1. Crea due array che hanno un numero di elementi diversi.
 
-Aggiungi elementi all’array che ha meno elementi fino a quando ne avrà tanti quanti l’altro.
+2. Aggiungi elementi all’array che ha meno elementi fino a quando ne avrà tanti quanti l’altro.
