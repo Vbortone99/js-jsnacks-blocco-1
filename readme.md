@@ -4,10 +4,18 @@ Assegnazioni:
     Descrizione:
 Abbiamo un frigorifero pieno di frutta:
 
+<!-- CREATE ARRAY -->
 'banana', 'mela', 'pera', 'ciliegia', 'arancia', 'mandarino', 'cocomero', 'limone', 'fragola'  
 
+<!-- .push -->
 C'è anche una pesca sul tavolo, la mettiamo nel frigo.
 Stasera dobbiamo fare un cocktail a base di cocomero: ce l'abbiamo o no in frigo?
+
+<!-- CICLO for -->
+verificare se nell'array di frutta c'è il cocomero:
+<!-- BOOLEAN STATEMENT + DOM ADD -->
+   - se c'è stampiamo: "Trovato! Devo solo preparare il cocktail."
+   - se non lo trovo: "Oh no, devo uscire a comprare il cocomero!"
 
 Fasi
 1. creare l'array con la frutta del frigorifero
@@ -15,6 +23,7 @@ Fasi
 3. verificare se nell'array di frutta c'è il cocomero:
    - se c'è stampiamo: "Trovato! Devo solo preparare il cocktail."
    - se non lo trovo: "Oh no, devo uscire a comprare il cocomero!"
+
 
 <!-- SNACK-2/ARRAY_TAIL: -->
     Descrizione:
@@ -28,7 +37,7 @@ Suggerimenti:
 
 Probabilmente conviene controllare che il numero di elementi della coda non sia più grande del numero di elementi totali dell'array
 
-<!-- SNACK-2/ARRAY_BONUS: -->
+<!-- SNACK-3/ARRAY_BONUS: -->
     Descrizione:
 1. Crea due array che hanno un numero di elementi diversi.
 
