@@ -1,13 +1,13 @@
-const fruitList = ['banana','mela','pera','ciliegia','arancia','mandarino','cocomero','limone','fragola'];
+let fruitList = ['banana','mela','pera','ciliegia','arancia','mandarino','cocomero','limone','fragola'];
 fruitList.push('pesca');
 
-for(let i = 0; i < fruitList.lenght; i++){
-    if(i === fruitList[6]){
+for(let i = 0; i < fruitList.length ; i++){
+    if(i = fruitList[6]){
         console.log(i);
-        console.log(fruitList)
+        let fruit_msgContainer = document.getElementById('fruit-msgContainer');
+        fruit_msgContainer.innerHTML = "Trovato! Devo solo preparare il cocktail."
     }else{
-        let fruit_msgContainer=document.getElementById('fruit-msgContainer');
-        fruit_msgContainer.innerHTML= "Oh no, devo uscire a comprare il cocomero!"
+        fruit_msgContainer.innerHTML = "Oh no, devo uscire a comprare il cocomero!"
     }
 }
 
